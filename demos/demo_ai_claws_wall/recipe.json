@@ -1,0 +1,25 @@
+{
+ "name": "demo_ai_claws_wall",
+ "kind": "sfx",
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "tempo": 60,
+ "description": "Woosh: long sharp claws slowly scraping along a rough stone wall in a dark corridor",
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "ai",
+   "params": {
+    "prompt": "long sharp claws slowly scraping along a rough stone wall in a dark corridor",
+    "duration": 6,
+    "seed": 2
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

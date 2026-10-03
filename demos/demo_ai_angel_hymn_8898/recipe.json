@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_angel_hymn",
+ "kind": "music",
+ "tags": [
+  "demo",
+  "ai",
+  "acestep"
+ ],
+ "tempo": 60,
+ "description": "ACE-Step: angelic heavenly choir, soprano voices, cathedral reverb, pipe organ, harp, slow sacred hymn, ethereal",
+ "tracks": [
+  {
+   "name": "исходник",
+   "type": "audio",
+   "source": "library:demo_ai_angel_hymn_8898/source.wav",
+   "gain": 1.0,
+   "effects": []
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "trim": false
+ }
+}

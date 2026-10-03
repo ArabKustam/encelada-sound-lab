@@ -1,0 +1,23 @@
+{
+ "name": "demo_mimic",
+ "created": 1790630030.0716703,
+ "history": [
+  {
+   "t": 1790630031.34678,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 24.34
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ],
+ "updated": 1790630031.34678,
+ "seconds": 24.34,
+ "kind": "sfx",
+ "description": "",
+ "tempo": 60.0,
+ "beats": 24.34,
+ "sections": []
+}

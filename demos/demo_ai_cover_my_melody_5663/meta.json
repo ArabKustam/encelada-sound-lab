@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_cover_my_melody",
+ "created": 1790633100.3187597,
+ "history": [
+  {
+   "t": 1790633100.6778245,
+   "author": "claude",
+   "note": "кавер",
+   "seconds": 17.08
+  }
+ ],
+ "tags": [
+  "demo",
+  "ai",
+  "cover"
+ ],
+ "updated": 1790633100.6778245,
+ "seconds": 17.08,
+ "kind": "music",
+ "description": "ACE-Step кавер моей аранжировки (ноты + нейро-певица + рояль)",
+ "tempo": 60.0,
+ "beats": 17.08,
+ "sections": []
+}

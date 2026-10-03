@@ -1,0 +1,54 @@
+{
+ "name": "demo_song_abyss",
+ "created": 1790629981.42397,
+ "history": [
+  {
+   "t": 1790629994.829974,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 76.89
+  }
+ ],
+ "tags": [
+  "song",
+  "abyss"
+ ],
+ "updated": 1790629994.829974,
+ "seconds": 76.89,
+ "kind": "music",
+ "description": "эфирная сказка: челеста, арфа, струнные, детский голос на выдуманном языке, ангельский хор",
+ "tempo": 70.0,
+ "beats": 89.7,
+ "sections": [
+  {
+   "name": "intro",
+   "at": 0.0,
+   "beats": 8.0
+  },
+  {
+   "name": "verse",
+   "at": 8.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 24.0,
+   "beats": 16.0
+  },
+  {
+   "name": "verse",
+   "at": 40.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 56.0,
+   "beats": 16.0
+  },
+  {
+   "name": "outro",
+   "at": 72.0,
+   "beats": 8.0
+  }
+ ]
+}

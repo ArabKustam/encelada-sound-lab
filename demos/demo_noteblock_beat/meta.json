@@ -1,0 +1,49 @@
+{
+ "name": "demo_noteblock_beat",
+ "created": 1790626475.086569,
+ "history": [
+  {
+   "t": 1790626476.1033113,
+   "author": "claude",
+   "note": "cli beat",
+   "seconds": 38.22
+  }
+ ],
+ "tags": [
+  "beat",
+  "noteblock"
+ ],
+ "updated": 1790626476.1033113,
+ "seconds": 38.22,
+ "kind": "music",
+ "description": "бит noteblock: F# major, аккорды I vi IV V",
+ "tempo": 120.0,
+ "beats": 76.45,
+ "sections": [
+  {
+   "name": "intro",
+   "at": 0.0,
+   "beats": 8.0
+  },
+  {
+   "name": "main",
+   "at": 8.0,
+   "beats": 16.0
+  },
+  {
+   "name": "drop",
+   "at": 24.0,
+   "beats": 16.0
+  },
+  {
+   "name": "main",
+   "at": 40.0,
+   "beats": 16.0
+  },
+  {
+   "name": "drop",
+   "at": 56.0,
+   "beats": 16.0
+  }
+ ]
+}

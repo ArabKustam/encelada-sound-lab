@@ -1,0 +1,25 @@
+{
+ "name": "demo_ai_crawler_vent",
+ "kind": "sfx",
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "tempo": 60,
+ "description": "Woosh: something with many legs crawling fast inside a metal ventilation shaft, scratching and knocking",
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "ai",
+   "params": {
+    "prompt": "something with many legs crawling fast inside a metal ventilation shaft, scratching and knocking",
+    "duration": 6,
+    "seed": 2
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

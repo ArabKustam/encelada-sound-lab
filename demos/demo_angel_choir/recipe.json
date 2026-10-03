@@ -1,0 +1,32 @@
+{
+ "name": "demo_angel_choir",
+ "tempo": 60,
+ "key": "C major",
+ "tracks": [
+  {
+   "name": "angels",
+   "preset": "angel choir",
+   "chords": "I vi IV V I",
+   "chord_octave": 4
+  },
+  {
+   "name": "harp",
+   "instrument": "harp",
+   "chords": "I vi IV V I",
+   "style": "arp_updown",
+   "arp_step": 0.5,
+   "gain": 0.4
+  },
+  {
+   "name": "organ",
+   "instrument": "church organ",
+   "chords": "I vi IV V I",
+   "chord_octave": 3,
+   "gain": 0.25
+  }
+ ],
+ "tags": [
+  "demo",
+  "song"
+ ]
+}

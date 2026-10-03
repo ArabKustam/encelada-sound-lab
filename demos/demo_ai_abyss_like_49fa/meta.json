@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_abyss_like",
+ "created": 1790633023.928142,
+ "history": [
+  {
+   "t": 1790633025.3748822,
+   "author": "claude",
+   "note": "нейро-песня",
+   "seconds": 80.0
+  }
+ ],
+ "tags": [
+  "demo",
+  "ai",
+  "acestep"
+ ],
+ "updated": 1790633025.3748822,
+ "seconds": 80.0,
+ "kind": "music",
+ "description": "ACE-Step: ethereal fantasy adventure soundtrack, children's choir singing softly in an invented language, celesta, harp, music box, warm strings, gentle piano, wonder and melancholy, cinematic, anime film score",
+ "tempo": 60.0,
+ "beats": 80.0,
+ "sections": []
+}

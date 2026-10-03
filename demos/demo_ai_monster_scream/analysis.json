@@ -1,0 +1,67 @@
+{
+ "seconds": 6.0,
+ "peak_db": -0.6,
+ "rms_db": -17.4,
+ "crest_db": 16.8,
+ "clipped_percent": 0.0,
+ "loudness_timeline_db": [
+  -25.5,
+  -16.7,
+  -14.3,
+  -14.3,
+  -12.8,
+  -16.5,
+  -17.4,
+  -24.1,
+  -23.6,
+  -23.0,
+  -22.1,
+  -23.4
+ ],
+ "timeline_step_s": 0.5,
+ "silence_start_s": 0.02,
+ "silence_end_s": 0.0,
+ "bands_percent": {
+  "sub": 0.2,
+  "bass": 2.9,
+  "low_mid": 89.6,
+  "high_mid": 6.2,
+  "air": 1.1
+ },
+ "brightness_hz": 1264,
+ "rolloff85_hz": 1701,
+ "stereo_width": 0.0,
+ "lr_correlation": 1.0,
+ "onsets": 27,
+ "onsets_per_s": 4.5,
+ "first_onsets_s": [
+  0.02,
+  0.5,
+  1.46,
+  1.59,
+  1.66,
+  1.76,
+  2.03,
+  2.19,
+  2.26,
+  2.59,
+  2.66,
+  2.84,
+  3.38,
+  3.77,
+  4.06,
+  4.32
+ ],
+ "tempo_bpm_estimate": 99.4,
+ "key_estimate": "A minor",
+ "key_confidence": 0.54,
+ "strongest_pitch_classes": [
+  "A",
+  "G#",
+  "F#",
+  "G"
+ ],
+ "notes": [
+  "всё в середине — мутновато; добавьте низ (бас) или воздух (hat, реверб)"
+ ]
+}

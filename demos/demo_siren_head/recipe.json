@@ -1,0 +1,83 @@
+{
+ "name": "demo_siren_head",
+ "kind": "sfx",
+ "tempo": 60,
+ "tracks": [
+  {
+   "name": "siren",
+   "type": "sfx",
+   "sfx": "siren",
+   "params": {
+    "duration": 9,
+    "pitch": 430,
+    "chord": 0.3,
+    "drive": 0.7
+   },
+   "gain": 0.8
+  },
+  {
+   "name": "voice",
+   "type": "sfx",
+   "sfx": "mimic",
+   "at": 4.5,
+   "params": {
+    "text": "Помогите. Найдите меня.",
+    "count": 2,
+    "wrongness": 0.9,
+    "pitch": 0.8,
+    "pause": 0.6
+   },
+   "effects": [
+    {
+     "type": "bandpass",
+     "cutoff": 1400,
+     "q": 1.2
+    },
+    {
+     "type": "distortion",
+     "drive": 6
+    }
+   ],
+   "gain": 0.7
+  },
+  {
+   "name": "static",
+   "type": "sfx",
+   "sfx": "static",
+   "params": {
+    "duration": 12,
+    "crackle": 0.8
+   },
+   "at": 4,
+   "gain": 0.25
+  },
+  {
+   "name": "rumble",
+   "type": "sfx",
+   "sfx": "rumble",
+   "params": {
+    "duration": 12
+   },
+   "gain": 0.4
+  }
+ ],
+ "master": {
+  "effects": [
+   {
+    "type": "delay",
+    "time": 0.45,
+    "feedback": 0.35,
+    "mix": 0.3
+   },
+   {
+    "type": "reverb",
+    "size": 1.0,
+    "mix": 0.3
+   }
+  ]
+ },
+ "tags": [
+  "demo",
+  "horror"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_anime_ending",
+ "created": 1790633007.2822924,
+ "history": [
+  {
+   "t": 1790633008.5741246,
+   "author": "claude",
+   "note": "нейро-песня",
+   "seconds": 70.0
+  }
+ ],
+ "tags": [
+  "demo",
+  "ai",
+  "acestep"
+ ],
+ "updated": 1790633008.5741246,
+ "seconds": 70.0,
+ "kind": "music",
+ "description": "ACE-Step: нежная аниме-концовка, японский вокал",
+ "tempo": 60.0,
+ "beats": 70.0,
+ "sections": []
+}

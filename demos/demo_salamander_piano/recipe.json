@@ -1,0 +1,36 @@
+{
+ "name": "demo_salamander_piano",
+ "tempo": 72,
+ "key": "A minor",
+ "tags": [
+  "demo",
+  "piano"
+ ],
+ "tracks": [
+  {
+   "name": "rh",
+   "instrument": "piano",
+   "notes": "E5:1/2 A4 C5 E5 D5:1 C5:1/2 B4 | C5:1 A4:1/2 E4 A4:2 | F5:1/2 E5 D5 C5 B4:1 G#4 | A4:3 r:1",
+   "humanize": 1
+  },
+  {
+   "name": "lh",
+   "instrument": "piano",
+   "chords": "Am F Dm E Am",
+   "style": "arp",
+   "arp_step": 0.5,
+   "chord_octave": 3,
+   "velocity": 0.55,
+   "humanize": 1
+  }
+ ],
+ "master": {
+  "effects": [
+   {
+    "type": "reverb",
+    "size": 0.6,
+    "mix": 0.2
+   }
+  ]
+ }
+}

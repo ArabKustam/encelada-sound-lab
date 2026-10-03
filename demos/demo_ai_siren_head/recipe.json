@@ -1,0 +1,25 @@
+{
+ "name": "demo_ai_siren_head",
+ "kind": "sfx",
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "tempo": 60,
+ "description": "Woosh: a giant creature screaming like a distorted air raid siren mixed with a garbled human voice, echoing over a forest at night",
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "ai",
+   "params": {
+    "prompt": "a giant creature screaming like a distorted air raid siren mixed with a garbled human voice, echoing over a forest at night",
+    "duration": 6,
+    "seed": 2
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

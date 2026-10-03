@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_cover_my_melody",
+ "kind": "music",
+ "tags": [
+  "demo",
+  "ai",
+  "cover"
+ ],
+ "tempo": 60,
+ "description": "ACE-Step кавер моей аранжировки (ноты + нейро-певица + рояль)",
+ "tracks": [
+  {
+   "name": "исходник",
+   "type": "audio",
+   "source": "library:demo_ai_cover_my_melody_5663/source.wav",
+   "gain": 1.0,
+   "effects": []
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "trim": false
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "name": "demo_live_orchestra",
+ "tempo": 76,
+ "key": "C major",
+ "tags": [
+  "demo",
+  "live"
+ ],
+ "description": "живые инструменты: рояль, скрипка, виолончель, флейта, хор",
+ "tracks": [
+  {
+   "name": "рояль",
+   "instrument": "рояль",
+   "chords": "C G Am F C G F:2 G:2 C",
+   "style": "arp",
+   "chord_octave": 3,
+   "arp_step": 0.5,
+   "gain": 0.7
+  },
+  {
+   "name": "скрипка",
+   "instrument": "скрипка",
+   "gain": 0.8,
+   "notes": "r:4 E5:2 D5:1 C5 | D5:2 G4:2 | A4:1 C5 E5 A5 | G5:3 F5:1 | E5:2 D5:1 C5 | D5:2 B4:2 | C5:4"
+  },
+  {
+   "name": "виолончель",
+   "instrument": "виолончель",
+   "chords": "C G Am F C G F:2 G:2 C",
+   "style": "root",
+   "chord_octave": 3,
+   "pulse": 4,
+   "gain": 0.6
+  },
+  {
+   "name": "флейта",
+   "instrument": "флейта",
+   "notes": "r:16 G5:1 A5 G5 E5 | F5:2 E5:1 D5 | C5:4",
+   "gain": 0.55
+  },
+  {
+   "name": "хор",
+   "instrument": "хор",
+   "chords": "r:16 C:4 G F:2 G:2 C:4",
+   "chord_octave": 4,
+   "gain": 0.4
+  }
+ ],
+ "master": {
+  "effects": [
+   {
+    "type": "reverb",
+    "size": 0.75,
+    "mix": 0.25
+   }
+  ],
+  "normalize": -1
+ }
+}

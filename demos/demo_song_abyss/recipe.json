@@ -1,0 +1,153 @@
+{
+ "name": "demo_song_abyss",
+ "kind": "music",
+ "tags": [
+  "song",
+  "abyss"
+ ],
+ "tempo": 70,
+ "key": "D minor",
+ "seed": 3,
+ "description": "эфирная сказка: челеста, арфа, струнные, детский голос на выдуманном языке, ангельский хор",
+ "sections": {
+  "intro": {
+   "bars": 2
+  },
+  "verse": {
+   "bars": 4
+  },
+  "chorus": {
+   "bars": 4
+  },
+  "outro": {
+   "bars": 2
+  }
+ },
+ "arrange": "intro verse chorus verse chorus outro",
+ "tracks": [
+  {
+   "name": "челеста",
+   "instrument": "celesta",
+   "style": "arp",
+   "arp_step": 0.5,
+   "chord_octave": 5,
+   "gain": 0.45,
+   "parts": {
+    "intro": {
+     "chords": "i VI III VII"
+    },
+    "verse": {
+     "chords": "i VI III VII"
+    },
+    "chorus": {
+     "chords": "VI VII i i"
+    },
+    "outro": {
+     "chords": "i"
+    }
+   },
+   "effects": [
+    {
+     "type": "reverb",
+     "size": 1.0,
+     "mix": 0.4
+    }
+   ]
+  },
+  {
+   "name": "арфа",
+   "instrument": "harp",
+   "style": "arp_updown",
+   "arp_step": 0.25,
+   "chord_octave": 3,
+   "gain": 0.5,
+   "parts": {
+    "verse": {
+     "chords": "i VI III VII"
+    },
+    "chorus": {
+     "chords": "VI VII i i"
+    }
+   },
+   "effects": [
+    {
+     "type": "reverb",
+     "size": 0.9,
+     "mix": 0.3
+    }
+   ]
+  },
+  {
+   "name": "струнные",
+   "instrument": "strings",
+   "chord_octave": 3,
+   "gain": 0.4,
+   "parts": {
+    "chorus": {
+     "chords": "VI VII i i"
+    },
+    "outro": {
+     "chords": "i"
+    }
+   },
+   "effects": [
+    {
+     "type": "reverb",
+     "size": 1.0,
+     "mix": 0.35
+    }
+   ]
+  },
+  {
+   "name": "контрабас",
+   "instrument": "contrabass",
+   "style": "root",
+   "pulse": 4,
+   "chord_octave": 2,
+   "gain": 0.45,
+   "parts": {
+    "verse": {
+     "chords": "i VI III VII"
+    },
+    "chorus": {
+     "chords": "VI VII i i"
+    }
+   }
+  },
+  {
+   "name": "детский голос",
+   "preset": "abyss chant",
+   "lyrics": "ха не зэ вэ ка ра ди на лэ а ну ми рэ о на си э ку ра ми",
+   "gain": 0.8,
+   "parts": {
+    "verse": "E5:1 F5:1 E5:1 E5:1 | D5:3 E5:1 | F5:1 E5:1 E5:1 F5:1 | F5:1 G5:1 D5:2",
+    "chorus": "G5:3 A5:1 | F5:3 E5:1 | D6:2 A#5:1 G5:1 | A5:1.5 A5:0.5 D5:2"
+   }
+  },
+  {
+   "name": "ангельский хор",
+   "preset": "angel choir",
+   "chord_octave": 4,
+   "gain": 0.5,
+   "parts": {
+    "chorus": {
+     "chords": "VI VII i i"
+    },
+    "outro": {
+     "chords": "i"
+    }
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "fade_out": 3,
+  "effects": [
+   {
+    "type": "compress",
+    "threshold": -16,
+    "ratio": 2.5
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "name": "demo_dark_giggles",
+ "kind": "sfx",
+ "tempo": 60,
+ "tracks": [
+  {
+   "name": "giggles",
+   "type": "sfx",
+   "sfx": "giggle",
+   "params": {
+    "duration": 9,
+    "creatures": 4,
+    "breath": 0.5
+   },
+   "effects": [
+    {
+     "type": "reverb",
+     "size": 1.0,
+     "mix": 0.45
+    },
+    {
+     "type": "autopan",
+     "rate": 0.2
+    }
+   ],
+   "gain": 0.8
+  },
+  {
+   "name": "whisper",
+   "type": "sfx",
+   "sfx": "whisper",
+   "params": {
+    "duration": 9
+   },
+   "gain": 0.25,
+   "pan": -0.5
+  },
+  {
+   "name": "drone",
+   "type": "sfx",
+   "sfx": "drone",
+   "params": {
+    "duration": 10,
+    "pitch": 41
+   },
+   "gain": 0.5
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ]
+}

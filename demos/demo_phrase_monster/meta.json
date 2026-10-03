@@ -1,0 +1,24 @@
+{
+ "name": "demo_phrase_monster",
+ "created": 1790627828.3043025,
+ "history": [
+  {
+   "t": 1790627828.7274892,
+   "author": "claude",
+   "note": "демо живых инструментов и голоса",
+   "seconds": 5.59
+  }
+ ],
+ "tags": [
+  "demo",
+  "voice",
+  "phrase"
+ ],
+ "updated": 1790627828.7274892,
+ "seconds": 5.59,
+ "kind": "sfx",
+ "description": "фраза голосом, опущенная для монстра",
+ "tempo": 60.0,
+ "beats": 5.59,
+ "sections": []
+}

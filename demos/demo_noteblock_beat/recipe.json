@@ -1,0 +1,103 @@
+{
+ "name": "demo_noteblock_beat",
+ "kind": "music",
+ "tags": [
+  "beat",
+  "noteblock"
+ ],
+ "tempo": 120,
+ "key": "F# major",
+ "seed": 3,
+ "description": "бит noteblock: F# major, аккорды I vi IV V",
+ "sections": {
+  "intro": {
+   "bars": 2
+  },
+  "main": {
+   "bars": 4
+  },
+  "drop": {
+   "bars": 4
+  }
+ },
+ "arrange": "intro main drop main drop",
+ "tracks": [
+  {
+   "name": "ударные",
+   "kit": "mc",
+   "swing": 0.0,
+   "gain": 0.9,
+   "parts": {
+    "intro": {
+     "drums": {
+      "kick": "x...x...x...x...",
+      "hat": "..x...x...x...x."
+     }
+    },
+    "main": {
+     "drums": {
+      "kick": "x...x...x...x...",
+      "snare": "....x.......x...",
+      "hat": "..x...x...x...x."
+     }
+    },
+    "drop": {
+     "drums": {
+      "kick": "x...x...x...x...",
+      "snare": "....x.......x...",
+      "hat": "..x...x...x...x."
+     }
+    }
+   }
+  },
+  {
+   "name": "аккорды",
+   "instrument": "noteblock:harp",
+   "chords": "I vi IV V",
+   "style": "arp",
+   "chord_octave": 4,
+   "pulse": 1,
+   "arp_step": 0.25,
+   "loop": true,
+   "gain": 0.5,
+   "effects": [
+    {
+     "type": "reverb",
+     "size": 0.5,
+     "mix": 0.2
+    }
+   ]
+  },
+  {
+   "name": "бас",
+   "instrument": "noteblock:bass",
+   "chords": "I vi IV V",
+   "style": "root",
+   "pulse": 1,
+   "chord_octave": 3,
+   "sections": "main drop",
+   "gain": 0.7
+  },
+  {
+   "name": "мелодия",
+   "instrument": "noteblock:bell",
+   "parts": {
+    "drop": "A#5:2 D#6:1 C#6:1 | F#6:2 G#6:1 A#6:1 | A#6:2 G#6:1 F#6:1 | D#6:2 C#6:1 F#5:1"
+   },
+   "gain": 0.6,
+   "effects": [
+    {
+     "type": "delay",
+     "time": "3/16",
+     "feedback": 0.3,
+     "mix": 0.2
+    }
+   ]
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "effects": [],
+  "fade_out": 1.5
+ }
+}

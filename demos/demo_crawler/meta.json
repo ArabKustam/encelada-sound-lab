@@ -1,0 +1,23 @@
+{
+ "name": "demo_crawler",
+ "created": 1790630029.648396,
+ "history": [
+  {
+   "t": 1790630030.0696695,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 12.44
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ],
+ "updated": 1790630030.0696695,
+ "seconds": 12.44,
+ "kind": "sfx",
+ "description": "",
+ "tempo": 60.0,
+ "beats": 12.44,
+ "sections": []
+}

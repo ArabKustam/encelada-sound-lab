@@ -1,0 +1,25 @@
+{
+ "name": "demo_ai_giggles_dark",
+ "kind": "sfx",
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "tempo": 60,
+ "description": "Woosh: several small creatures giggling and snickering quietly in the dark, creepy childlike laughter",
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "ai",
+   "params": {
+    "prompt": "several small creatures giggling and snickering quietly in the dark, creepy childlike laughter",
+    "duration": 6,
+    "seed": 2
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

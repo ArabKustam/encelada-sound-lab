@@ -1,0 +1,26 @@
+{
+ "name": "demo_voice_scream",
+ "kind": "sfx",
+ "tempo": 60,
+ "tags": [
+  "demo",
+  "horror"
+ ],
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "voice_scream",
+   "params": {
+    "duration": 2.2,
+    "rough": 0.7
+   },
+   "effects": [
+    {
+     "type": "reverb",
+     "size": 0.8,
+     "mix": 0.3
+    }
+   ]
+  }
+ ]
+}

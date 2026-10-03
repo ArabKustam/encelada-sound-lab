@@ -1,0 +1,34 @@
+{
+ "name": "demo_anime_song",
+ "created": 1790630020.398033,
+ "history": [
+  {
+   "t": 1790630021.951172,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 23.11
+  }
+ ],
+ "tags": [
+  "demo",
+  "song"
+ ],
+ "updated": 1790630021.951172,
+ "seconds": 23.11,
+ "kind": "sound",
+ "description": "",
+ "tempo": 88.0,
+ "beats": 33.89,
+ "sections": [
+  {
+   "name": "verse",
+   "at": 0.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 16.0,
+   "beats": 16.0
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "name": "demo_song_angelic",
+ "kind": "music",
+ "tags": [
+  "song",
+  "angelic"
+ ],
+ "tempo": 58,
+ "key": "C major",
+ "seed": 4,
+ "description": "ангельский гимн: хор голосов + живой хор с шиммером, орган, арфа, струнные",
+ "sections": {
+  "intro": {
+   "bars": 2
+  },
+  "verse": {
+   "bars": 4
+  },
+  "chorus": {
+   "bars": 4
+  },
+  "outro": {
+   "bars": 2
+  }
+ },
+ "arrange": "intro verse chorus verse chorus outro",
+ "tracks": [
+  {
+   "name": "ангельский хор",
+   "preset": "angel choir",
+   "chord_octave": 4,
+   "gain": 0.7,
+   "parts": {
+    "intro": {
+     "chords": "I"
+    },
+    "verse": {
+     "chords": "I vi IV V"
+    },
+    "chorus": {
+     "chords": "IV V iii vi ii V I I",
+     "chord_length": 2
+    },
+    "outro": {
+     "chords": "I"
+    }
+   }
+  },
+  {
+   "name": "детский хор",
+   "instrument": "детский хор",
+   "lyrics": "а-ле-лу-я",
+   "gain": 0.6,
+   "parts": {
+    "chorus": "A5:1.5 G5:0.5 E6:2 | C5:1 E5:1 E5:1 D5:1 | D5:1 D5:1 E5:2 | E5:1 C5:1 E5:1 C5:1"
+   },
+   "effects": [
+    {
+     "type": "shimmer",
+     "size": 1.0,
+     "mix": 0.4
+    }
+   ]
+  },
+  {
+   "name": "орган",
+   "instrument": "church organ",
+   "chord_octave": 3,
+   "gain": 0.3,
+   "parts": {
+    "verse": {
+     "chords": "I vi IV V"
+    },
+    "chorus": {
+     "chords": "IV V iii vi ii V I I",
+     "chord_length": 2
+    }
+   }
+  },
+  {
+   "name": "арфа",
+   "instrument": "harp",
+   "style": "arp_updown",
+   "arp_step": 0.5,
+   "chord_octave": 4,
+   "gain": 0.45,
+   "parts": {
+    "verse": {
+     "chords": "I vi IV V"
+    },
+    "chorus": {
+     "chords": "IV V iii vi ii V I I",
+     "chord_length": 2
+    }
+   }
+  },
+  {
+   "name": "струнные",
+   "instrument": "strings",
+   "chord_octave": 3,
+   "gain": 0.35,
+   "parts": {
+    "chorus": {
+     "chords": "IV V iii vi ii V I I",
+     "chord_length": 2
+    },
+    "outro": {
+     "chords": "I"
+    }
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "fade_out": 3,
+  "effects": [
+   {
+    "type": "compress",
+    "threshold": -16,
+    "ratio": 2.5
+   }
+  ]
+ }
+}

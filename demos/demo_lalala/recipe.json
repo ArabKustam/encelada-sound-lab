@@ -1,0 +1,38 @@
+{
+ "name": "demo_lalala",
+ "tempo": 100,
+ "tags": [
+  "demo",
+  "voice"
+ ],
+ "description": "голос поёт ля-ля-ля",
+ "tracks": [
+  {
+   "name": "голос",
+   "instrument": "голос",
+   "lyrics": "ля",
+   "gain": 0.9,
+   "notes": "E5:1/2 D5 C5 D5 E5 E5 E5:1 | D5:1/2 D5 D5:1 E5:1/2 G5 G5:1 | E5:1/2 D5 C5 D5 E5 E5 E5 C5 | D5 D5 E5 D5 C5:2"
+  },
+  {
+   "name": "рояль",
+   "instrument": "рояль",
+   "chords": "C G C G C G C:2 G:2 C",
+   "chord_length": 2,
+   "style": "pulse",
+   "pulse": 1,
+   "chord_octave": 3,
+   "gain": 0.5
+  }
+ ],
+ "master": {
+  "effects": [
+   {
+    "type": "reverb",
+    "size": 0.5,
+    "mix": 0.2
+   }
+  ],
+  "normalize": -1
+ }
+}

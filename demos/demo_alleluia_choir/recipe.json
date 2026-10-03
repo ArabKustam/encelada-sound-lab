@@ -1,0 +1,45 @@
+{
+ "name": "demo_alleluia_choir",
+ "tempo": 60,
+ "tags": [
+  "demo",
+  "voice",
+  "choir"
+ ],
+ "description": "хор поёт а-ле-лу-я",
+ "tracks": [
+  {
+   "name": "хор",
+   "instrument": {
+    "layers": [
+     "смешанный хор",
+     {
+      "instrument": "choir",
+      "gain": 0.45
+     }
+    ]
+   },
+   "lyrics": "а-ле-лу-я а-ле-лу-я",
+   "chords": "C:1 F:1 C:1 G:1 Am:1 F:1 G:1 C:2",
+   "chord_octave": 4,
+   "gain": 0.8
+  },
+  {
+   "name": "орган",
+   "instrument": "church organ",
+   "chords": "C:1 F:1 C:1 G:1 Am:1 F:1 G:1 C:2",
+   "chord_octave": 3,
+   "gain": 0.35
+  }
+ ],
+ "master": {
+  "effects": [
+   {
+    "type": "reverb",
+    "size": 0.9,
+    "mix": 0.35
+   }
+  ],
+  "normalize": -1
+ }
+}

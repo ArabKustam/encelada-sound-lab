@@ -1,0 +1,24 @@
+{
+ "name": "demo_alleluia_choir",
+ "created": 1790627823.8522754,
+ "history": [
+  {
+   "t": 1790627828.3033116,
+   "author": "claude",
+   "note": "демо живых инструментов и голоса",
+   "seconds": 13.07
+  }
+ ],
+ "tags": [
+  "demo",
+  "voice",
+  "choir"
+ ],
+ "updated": 1790627828.3033116,
+ "seconds": 13.07,
+ "kind": "sound",
+ "description": "хор поёт а-ле-лу-я",
+ "tempo": 60.0,
+ "beats": 13.07,
+ "sections": []
+}

@@ -1,0 +1,146 @@
+{
+ "name": "demo_song_takopi",
+ "kind": "music",
+ "tags": [
+  "song",
+  "takopi"
+ ],
+ "tempo": 86,
+ "key": "D major",
+ "seed": 5,
+ "description": "нежная аниме-песня: гитара, рояль, глокеншпиль, мягкие барабаны, аниме-вокал по-японски",
+ "sections": {
+  "intro": {
+   "bars": 2
+  },
+  "verse": {
+   "bars": 4
+  },
+  "chorus": {
+   "bars": 4
+  },
+  "outro": {
+   "bars": 2
+  }
+ },
+ "arrange": "intro verse chorus verse chorus outro",
+ "tracks": [
+  {
+   "name": "гитара",
+   "instrument": "gm:nylon guitar",
+   "style": "strum",
+   "chord_octave": 3,
+   "gain": 0.55,
+   "parts": {
+    "intro": {
+     "chords": "I vi IV V"
+    },
+    "verse": {
+     "chords": "I vi IV V"
+    },
+    "chorus": {
+     "chords": "IV V iii vi"
+    },
+    "outro": {
+     "chords": "I"
+    }
+   }
+  },
+  {
+   "name": "рояль",
+   "instrument": "piano",
+   "style": "arp",
+   "arp_step": 0.5,
+   "chord_octave": 4,
+   "gain": 0.45,
+   "parts": {
+    "verse": {
+     "chords": "I vi IV V"
+    },
+    "chorus": {
+     "chords": "IV V iii vi"
+    },
+    "outro": {
+     "chords": "I"
+    }
+   }
+  },
+  {
+   "name": "глокеншпиль",
+   "instrument": "glockenspiel",
+   "gain": 0.3,
+   "parts": {
+    "chorus": "D5:1.5 E5:0.5 B4:2 | F#5:3 A5:1 | B4:1 G5:1 A5:1 G5:1 | D5:1.5 E5:0.5 D5:2"
+   }
+  },
+  {
+   "name": "барабаны",
+   "kit": "gm",
+   "gain": 0.45,
+   "parts": {
+    "verse": {
+     "drums": {
+      "kick": "x.......x.......",
+      "rim": "....x.......x...",
+      "hat": "o.o.o.o.o.o.o.o."
+     }
+    },
+    "chorus": {
+     "drums": {
+      "kick": "x.....x.x.......",
+      "snare": "....x.......x...",
+      "hat": "x.x.x.x.x.x.x.x."
+     }
+    }
+   }
+  },
+  {
+   "name": "бас",
+   "instrument": "bass guitar",
+   "style": "root",
+   "pulse": 2,
+   "chord_octave": 2,
+   "gain": 0.55,
+   "parts": {
+    "verse": {
+     "chords": "I vi IV V"
+    },
+    "chorus": {
+     "chords": "IV V iii vi"
+    }
+   }
+  },
+  {
+   "name": "струнные",
+   "instrument": "strings",
+   "chord_octave": 4,
+   "gain": 0.3,
+   "parts": {
+    "chorus": {
+     "chords": "IV V iii vi"
+    }
+   }
+  },
+  {
+   "name": "вокал",
+   "preset": "anime vocal",
+   "lyrics": "あしたも きっと あえるよね そらの むこうで まってるよ ちいさな ほしが ひかるまで",
+   "gain": 0.85,
+   "parts": {
+    "verse": "A4:0.5 A4:0.5 C#5:1 F#5:2 | D4:1.5 D4:0.5 F#4:1 C#5:1 | C#4:1.5 C#4:0.5 C#4:1 B3:1 | A4:0.5 G4:0.5 F#4:1 D4:2",
+    "chorus": "C#5:1.5 B4:0.5 B4:1 B4:1 | F#5:1.5 D6:0.5 C#6:1 D6:1 | A5:2 B5:1 F#5:1 | F#5:2 F#5:1 D5:1"
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "fade_out": 3,
+  "effects": [
+   {
+    "type": "compress",
+    "threshold": -16,
+    "ratio": 2.5
+   }
+  ]
+ }
+}

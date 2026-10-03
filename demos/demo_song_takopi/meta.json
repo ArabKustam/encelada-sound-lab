@@ -1,0 +1,54 @@
+{
+ "name": "demo_song_takopi",
+ "created": 1790629994.8319747,
+ "history": [
+  {
+   "t": 1790629999.688739,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 56.06
+  }
+ ],
+ "tags": [
+  "song",
+  "takopi"
+ ],
+ "updated": 1790629999.688739,
+ "seconds": 56.06,
+ "kind": "music",
+ "description": "нежная аниме-песня: гитара, рояль, глокеншпиль, мягкие барабаны, аниме-вокал по-японски",
+ "tempo": 86.0,
+ "beats": 80.36,
+ "sections": [
+  {
+   "name": "intro",
+   "at": 0.0,
+   "beats": 8.0
+  },
+  {
+   "name": "verse",
+   "at": 8.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 24.0,
+   "beats": 16.0
+  },
+  {
+   "name": "verse",
+   "at": 40.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 56.0,
+   "beats": 16.0
+  },
+  {
+   "name": "outro",
+   "at": 72.0,
+   "beats": 8.0
+  }
+ ]
+}

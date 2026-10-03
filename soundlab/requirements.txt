@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+Pillow>=10
+mcp>=1,<2
+pyworld>=0.3   # пение: вокодер WORLD
+# настоящие инструменты General MIDI из SoundFont ставятся отдельно, без зависимостей:
+#   pip install --no-deps tinysoundfont

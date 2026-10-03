@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encelada Sound Lab</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">Encelada <b>Sound Lab</b></div>
+  <div class="actions">
+    <button id="btnNew" title="Пустой рецепт">＋ Новый</button>
+    <button id="btnAiSong" title="Песня с живым вокалом нейросетью ACE-Step">🤖 Нейро-песня</button>
+    <button id="btnAiSfx" title="Звуковой эффект по описанию нейросетью Woosh">🤖 Нейро-SFX</button>
+    <button id="btnSong" title="Песня с вокалом: abyss, takopi, jumping, angelic">🎤 Песня</button>
+    <button id="btnBeat" title="Сгенерировать бит: lofi, trap, house, rock, chiptune, нотные блоки">🥁 Бит</button>
+    <button id="btnCalm" title="Сочинить спокойную пьесу в духе C418">♪ Спокойная</button>
+    <button id="btnHorror" title="Сочинить хоррор-эмбиент">☠ Хоррор</button>
+    <button id="btnMorph" title="Хорошее превращается в жуть на выбранной доле">⇄ Переход</button>
+    <label class="upload">⤒ Загрузить звук<input type="file" id="upload" accept=".wav,.ogg,.flac,.mp3" hidden></label>
+  </div>
+  <div id="status" class="status">готово</div>
+</header>
+<main>
+  <aside id="libPane">
+    <input id="filter" placeholder="Поиск по названию и тегам">
+    <ul id="lib"></ul>
+  </aside>
+  <section id="editor">
+    <div id="empty" class="empty">Выберите звук слева или создайте новый. Всё, что делает Claude через MCP,
+      появляется здесь и в ленте справа.</div>
+    <div id="sound" hidden>
+      <div class="titleRow">
+        <input id="name" class="name">
+        <span id="seconds" class="muted"></span>
+        <span id="author" class="muted"></span>
+      </div>
+      <textarea id="desc" class="desc" rows="1" placeholder="описание"></textarea>
+      <div class="player">
+        <audio id="audio" controls></audio>
+        <div class="viz">
+          <img id="wave" alt="волна"><div id="playhead"></div>
+          <img id="spec" alt="спектрограмма">
+        </div>
+      </div>
+      <div class="bar">
+        <label>Темп <input id="tempo" type="number" min="20" max="300" step="1"> BPM</label>
+        <label>Каналы <select id="channels"><option value="2">стерео</option><option value="1">моно (для Minecraft)</option></select></label>
+        <button id="btnRender" class="primary">▶ Рендер</button>
+        <button id="btnPreview" title="Быстро прослушать кусок (доли от–до), без истории">▶ Кусок</button>
+        <button id="btnSaveNew">Сохранить копией</button>
+        <button id="btnExport">⇩ В Minecraft</button>
+        <a id="dlOgg" download>OGG</a> <a id="dlWav" download>WAV</a>
+        <button id="btnDelete" class="danger">В корзину</button>
+      </div>
+      <nav class="tabs">
+        <button data-tab="tracks" class="on">Дорожки</button>
+        <button data-tab="json">Рецепт (JSON)</button>
+        <button data-tab="history">История</button>
+      </nav>
+      <div id="tab-tracks" class="tab">
+        <div id="tracks"></div>
+        <div class="addRow">
+          <button id="addNotes">＋ Дорожка нот</button>
+          <button id="addSfx">＋ Звуковой эффект</button>
+          <button id="addAudio">＋ Аудио из библиотеки</button>
+        </div>
+        <details class="master"><summary>Мастер</summary><div id="master"></div></details>
+      </div>
+      <div id="tab-json" class="tab" hidden>
+        <textarea id="json" spellcheck="false"></textarea>
+        <button id="applyJson">Применить JSON</button>
+      </div>
+      <div id="tab-history" class="tab" hidden><ul id="history"></ul></div>
+    </div>
+  </section>
+  <aside id="side">
+    <h3>Что происходит</h3>
+    <div id="log"></div>
+    <h3>Сэмплы (Minecraft и свои)</h3>
+    <input id="sampleQ" placeholder="например: zombie hurt, note harp, explode — Enter">
+    <div id="sampleStats" class="muted small"></div>
+    <ul id="samples" class="samples"></ul>
+    <h3>Инструмент</h3>
+    <div class="kbdBar">
+      <select id="kbdInst"></select>
+      <label><input type="checkbox" id="rec"> запись в дорожку</label>
+      <label>шаг <select id="recStep"><option>0.25</option><option selected>0.5</option><option>1</option><option>2</option></select></label>
+      <label>октава <input id="octave" type="number" value="4" min="1" max="7"></label>
+    </div>
+    <div id="kbd" class="kbd"></div>
+    <p class="muted small">Клавиши клавиатуры: A W S E D F T G Y H U J K — ноты. С «записью» каждая нота
+      добавляется в выбранную дорожку на позицию курсора.</p>
+  </aside>
+</main>
+<script src="/web/app.js"></script>
+</body>
+</html>

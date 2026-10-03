@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_abyss_like",
+ "kind": "music",
+ "tags": [
+  "demo",
+  "ai",
+  "acestep"
+ ],
+ "tempo": 60,
+ "description": "ACE-Step: ethereal fantasy adventure soundtrack, children's choir singing softly in an invented language, celesta, harp, music box, warm strings, gentle piano, wonder and melancholy, cinematic, anime film score",
+ "tracks": [
+  {
+   "name": "исходник",
+   "type": "audio",
+   "source": "library:demo_ai_abyss_like_49fa/source.wav",
+   "gain": 1.0,
+   "effects": []
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "trim": false
+ }
+}

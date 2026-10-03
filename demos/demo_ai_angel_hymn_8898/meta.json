@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_angel_hymn",
+ "created": 1790633052.344293,
+ "history": [
+  {
+   "t": 1790633053.441365,
+   "author": "claude",
+   "note": "нейро-песня",
+   "seconds": 60.0
+  }
+ ],
+ "tags": [
+  "demo",
+  "ai",
+  "acestep"
+ ],
+ "updated": 1790633053.441365,
+ "seconds": 60.0,
+ "kind": "music",
+ "description": "ACE-Step: angelic heavenly choir, soprano voices, cathedral reverb, pipe organ, harp, slow sacred hymn, ethereal",
+ "tempo": 60.0,
+ "beats": 60.0,
+ "sections": []
+}

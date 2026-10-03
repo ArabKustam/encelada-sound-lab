@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+soundlab/config.json
+soundlab/instruments/
+soundlab/cache/
+soundlab/exports/
+soundlab/library/
+soundlab/soundfonts/MuseScore_General.sf2

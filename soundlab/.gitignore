@@ -1,0 +1,10 @@
+.venv/
+library/.trash/
+library/_preview/
+library/_sample/
+__pycache__/
+library/*/audio.wav
+config.json
+instruments/
+cache/
+soundfonts/MuseScore_General.sf2

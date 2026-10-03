@@ -1,0 +1,73 @@
+{
+ "seconds": 6.0,
+ "peak_db": -0.6,
+ "rms_db": -18.8,
+ "crest_db": 18.2,
+ "clipped_percent": 0.0,
+ "loudness_timeline_db": [
+  -26.6,
+  -14.2,
+  -15.4,
+  -15.2,
+  -17.1,
+  -23.2,
+  -19.6,
+  -27.5,
+  -21.9,
+  -19.9,
+  -27.0,
+  -24.3
+ ],
+ "timeline_step_s": 0.5,
+ "silence_start_s": 0.0,
+ "silence_end_s": 0.0,
+ "bands_percent": {
+  "sub": 1.6,
+  "bass": 1.0,
+  "low_mid": 92.3,
+  "high_mid": 4.6,
+  "air": 0.3
+ },
+ "brightness_hz": 1190,
+ "rolloff85_hz": 1614,
+ "stereo_width": 0.0,
+ "lr_correlation": 1.0,
+ "onsets": 24,
+ "onsets_per_s": 4.0,
+ "first_onsets_s": [
+  0.28,
+  0.45,
+  0.66,
+  0.87,
+  1.07,
+  1.31,
+  1.52,
+  1.76,
+  2.26,
+  2.35,
+  2.54,
+  2.69,
+  2.95,
+  3.13,
+  3.29,
+  3.45
+ ],
+ "tempo_bpm_estimate": 92.3,
+ "key_estimate": "A minor",
+ "key_confidence": 0.3,
+ "strongest_pitch_classes": [
+  "F#",
+  "A",
+  "G",
+  "A#"
+ ],
+ "pitch": {
+  "hz": 485.2,
+  "note": "B4",
+  "cents_off": -31,
+  "clarity": 0.84
+ },
+ "notes": [
+  "всё в середине — мутновато; добавьте низ (бас) или воздух (hat, реверб)"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "name": "demo_ai_giggles_dark",
+ "created": 1790633143.500459,
+ "history": [
+  {
+   "t": 1790633159.3862712,
+   "author": "claude",
+   "note": "демо нейро-SFX",
+   "seconds": 3.0
+  },
+  {
+   "t": 1790633271.990828,
+   "author": "claude",
+   "note": "исправлена длительность",
+   "seconds": 6.0
+  }
+ ],
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "updated": 1790633271.990828,
+ "seconds": 6.0,
+ "kind": "sfx",
+ "description": "Woosh: several small creatures giggling and snickering quietly in the dark, creepy childlike laughter",
+ "tempo": 60.0,
+ "beats": 6.0,
+ "sections": []
+}

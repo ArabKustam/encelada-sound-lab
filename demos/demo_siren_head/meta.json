@@ -1,0 +1,23 @@
+{
+ "name": "demo_siren_head",
+ "created": 1790630027.2510393,
+ "history": [
+  {
+   "t": 1790630028.3772426,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 20.06
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ],
+ "updated": 1790630028.3772426,
+ "seconds": 20.06,
+ "kind": "sfx",
+ "description": "",
+ "tempo": 60.0,
+ "beats": 20.06,
+ "sections": []
+}

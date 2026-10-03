@@ -1,0 +1,54 @@
+{
+ "name": "demo_song_angelic",
+ "created": 1790630003.9353862,
+ "history": [
+  {
+   "t": 1790630020.3970327,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 91.52
+  }
+ ],
+ "tags": [
+  "song",
+  "angelic"
+ ],
+ "updated": 1790630020.3970327,
+ "seconds": 91.52,
+ "kind": "music",
+ "description": "ангельский гимн: хор голосов + живой хор с шиммером, орган, арфа, струнные",
+ "tempo": 58.0,
+ "beats": 88.47,
+ "sections": [
+  {
+   "name": "intro",
+   "at": 0.0,
+   "beats": 8.0
+  },
+  {
+   "name": "verse",
+   "at": 8.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 24.0,
+   "beats": 16.0
+  },
+  {
+   "name": "verse",
+   "at": 40.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 56.0,
+   "beats": 16.0
+  },
+  {
+   "name": "outro",
+   "at": 72.0,
+   "beats": 8.0
+  }
+ ]
+}

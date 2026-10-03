@@ -1,0 +1,24 @@
+{
+ "name": "demo_ai_jumping_voices_like",
+ "kind": "music",
+ "tags": [
+  "demo",
+  "ai",
+  "acestep"
+ ],
+ "tempo": 60,
+ "description": "ACE-Step: upbeat bouncy cheerful game music, playful chopped vocal samples jumping between notes, female vocal chops \"ah\" \"hey\" \"oh\", plucky synths, bright piano, four-on-the-floor light drums, happy walking theme",
+ "tracks": [
+  {
+   "name": "исходник",
+   "type": "audio",
+   "source": "library:demo_ai_jumping_voices_like_2e66/source.wav",
+   "gain": 1.0,
+   "effects": []
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "trim": false
+ }
+}

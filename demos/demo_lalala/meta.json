@@ -1,0 +1,23 @@
+{
+ "name": "demo_lalala",
+ "created": 1790627823.05073,
+ "history": [
+  {
+   "t": 1790627823.8512836,
+   "author": "claude",
+   "note": "демо живых инструментов и голоса",
+   "seconds": 13.18
+  }
+ ],
+ "tags": [
+  "demo",
+  "voice"
+ ],
+ "updated": 1790627823.8512836,
+ "seconds": 13.18,
+ "kind": "sound",
+ "description": "голос поёт ля-ля-ля",
+ "tempo": 100.0,
+ "beats": 21.97,
+ "sections": []
+}

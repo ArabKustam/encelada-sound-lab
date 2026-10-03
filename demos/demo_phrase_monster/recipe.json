@@ -1,0 +1,45 @@
+{
+ "name": "demo_phrase_monster",
+ "kind": "sfx",
+ "tempo": 60,
+ "tags": [
+  "demo",
+  "voice",
+  "phrase"
+ ],
+ "description": "фраза голосом, опущенная для монстра",
+ "tracks": [
+  {
+   "name": "фраза",
+   "type": "audio",
+   "source": "tts:Кто посмел разбудить меня?",
+   "semitones": -7,
+   "gain": 1.0,
+   "effects": [
+    {
+     "type": "distortion",
+     "drive": 2,
+     "mix": 0.3
+    },
+    {
+     "type": "reverb",
+     "size": 0.8,
+     "mix": 0.35
+    }
+   ]
+  },
+  {
+   "name": "гул",
+   "type": "sfx",
+   "sfx": "drone",
+   "params": {
+    "duration": 5,
+    "pitch": 45
+   },
+   "gain": 0.4
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "name": "demo_ai_monster_scream",
+ "kind": "sfx",
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "tempo": 60,
+ "description": "Woosh: terrifying monstrous shriek, close, wet and raspy",
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "ai",
+   "params": {
+    "prompt": "terrifying monstrous shriek, close, wet and raspy",
+    "duration": 6,
+    "seed": 2
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

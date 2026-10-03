@@ -1,0 +1,30 @@
+{
+ "name": "demo_ai_siren_head",
+ "created": 1790633127.8732758,
+ "history": [
+  {
+   "t": 1790633143.4994583,
+   "author": "claude",
+   "note": "демо нейро-SFX",
+   "seconds": 3.0
+  },
+  {
+   "t": 1790633255.4060605,
+   "author": "claude",
+   "note": "исправлена длительность",
+   "seconds": 6.0
+  }
+ ],
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "updated": 1790633255.4060605,
+ "seconds": 6.0,
+ "kind": "sfx",
+ "description": "Woosh: a giant creature screaming like a distorted air raid siren mixed with a garbled human voice, echoing over a forest at night",
+ "tempo": 60.0,
+ "beats": 6.0,
+ "sections": []
+}

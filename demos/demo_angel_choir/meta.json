@@ -1,0 +1,23 @@
+{
+ "name": "demo_angel_choir",
+ "created": 1790630021.952173,
+ "history": [
+  {
+   "t": 1790630027.2500396,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 28.67
+  }
+ ],
+ "tags": [
+  "demo",
+  "song"
+ ],
+ "updated": 1790630027.2500396,
+ "seconds": 28.67,
+ "kind": "sound",
+ "description": "",
+ "tempo": 60.0,
+ "beats": 28.67,
+ "sections": []
+}

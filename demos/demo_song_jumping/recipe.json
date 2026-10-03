@@ -1,0 +1,138 @@
+{
+ "name": "demo_song_jumping",
+ "kind": "music",
+ "tags": [
+  "song",
+  "jumping"
+ ],
+ "tempo": 126,
+ "key": "F major",
+ "seed": 2,
+ "description": "бодрая: прыгающие вокальные чопы, плаки, бочка в пол, бас",
+ "sections": {
+  "intro": {
+   "bars": 2
+  },
+  "verse": {
+   "bars": 4
+  },
+  "chorus": {
+   "bars": 4
+  },
+  "outro": {
+   "bars": 2
+  }
+ },
+ "arrange": "intro verse chorus verse chorus outro",
+ "tracks": [
+  {
+   "name": "ударные",
+   "kit": "synth",
+   "gain": 0.8,
+   "parts": {
+    "intro": {
+     "drums": {
+      "hat": "x.x.x.x.x.x.x.x."
+     }
+    },
+    "verse": {
+     "drums": {
+      "kick": "x...x...x...x...",
+      "clap": "....x.......x...",
+      "hat": "..x...x...x...x."
+     }
+    },
+    "chorus": {
+     "drums": {
+      "kick": "x...x...x...x...",
+      "clap": "....x.......x...",
+      "ohat": "..x...x...x...x.",
+      "shaker": "xxxxxxxxxxxxxxxx"
+     }
+    }
+   }
+  },
+  {
+   "name": "плаки",
+   "instrument": "synth:pluck",
+   "style": "arp",
+   "arp_step": 0.25,
+   "chord_octave": 4,
+   "gain": 0.45,
+   "parts": {
+    "intro": {
+     "chords": "I V vi IV"
+    },
+    "verse": {
+     "chords": "I V vi IV"
+    },
+    "chorus": {
+     "chords": "IV V vi I"
+    }
+   },
+   "effects": [
+    {
+     "type": "delay",
+     "time": "3/16",
+     "feedback": 0.3,
+     "mix": 0.2
+    }
+   ]
+  },
+  {
+   "name": "пэд",
+   "instrument": "synth:pad",
+   "chord_octave": 4,
+   "gain": 0.3,
+   "parts": {
+    "chorus": {
+     "chords": "IV V vi I"
+    }
+   },
+   "effects": [
+    {
+     "type": "sidechain",
+     "every": 1,
+     "depth": 0.6
+    }
+   ]
+  },
+  {
+   "name": "бас",
+   "instrument": "gm:synth bass",
+   "style": "root_octave",
+   "pulse": 0.5,
+   "chord_octave": 2,
+   "gain": 0.6,
+   "parts": {
+    "verse": {
+     "chords": "I V vi IV"
+    },
+    "chorus": {
+     "chords": "IV V vi I"
+    }
+   }
+  },
+  {
+   "name": "голоса",
+   "preset": "jumping voices",
+   "lyrics": "а я о э хэй у я а",
+   "gain": 0.8,
+   "parts": {
+    "verse": "C6:0.5 A5:0.5 A#5:0.5 D6:0.5 A6:1 F6:1 | C6:0.75 E6:0.75 G6:0.5 A6:2 | G5:1 A5:0.5 C6:0.5 G6:0.5 A6:0.5 A6:1 | F5:0.75 E5:0.75 D5:0.5 F5:2",
+    "chorus": "A#5:0.5 C6:0.25 A#5:0.25 C6:0.5 C6:0.5 A5:2 | A5:0.75 C6:0.75 D6:0.5 E6:2 | E6:0.5 A6:0.25 D6:0.25 F6:0.5 A6:0.5 A6:2 | C6:0.75 D6:0.75 E6:0.5 F5:2"
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1,
+  "fade_out": 3,
+  "effects": [
+   {
+    "type": "compress",
+    "threshold": -16,
+    "ratio": 2.5
+   }
+  ]
+ }
+}

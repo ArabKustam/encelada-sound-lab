@@ -1,0 +1,23 @@
+{
+ "name": "demo_dark_giggles",
+ "created": 1790630028.3782692,
+ "history": [
+  {
+   "t": 1790630029.6473956,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 13.36
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ],
+ "updated": 1790630029.6473956,
+ "seconds": 13.36,
+ "kind": "sfx",
+ "description": "",
+ "tempo": 60.0,
+ "beats": 13.36,
+ "sections": []
+}

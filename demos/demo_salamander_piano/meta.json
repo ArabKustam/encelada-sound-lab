@@ -1,0 +1,23 @@
+{
+ "name": "demo_salamander_piano",
+ "created": 1790633207.7830162,
+ "history": [
+  {
+   "t": 1790633209.0755682,
+   "author": "claude",
+   "note": "демо живого рояля",
+   "seconds": 19.33
+  }
+ ],
+ "tags": [
+  "demo",
+  "piano"
+ ],
+ "updated": 1790633209.0755682,
+ "seconds": 19.33,
+ "kind": "sound",
+ "description": "",
+ "tempo": 72.0,
+ "beats": 23.2,
+ "sections": []
+}

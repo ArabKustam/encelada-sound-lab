@@ -1,0 +1,54 @@
+{
+ "name": "demo_song_jumping",
+ "created": 1790629999.6907394,
+ "history": [
+  {
+   "t": 1790630003.9343956,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 36.68
+  }
+ ],
+ "tags": [
+  "song",
+  "jumping"
+ ],
+ "updated": 1790630003.9343956,
+ "seconds": 36.68,
+ "kind": "music",
+ "description": "бодрая: прыгающие вокальные чопы, плаки, бочка в пол, бас",
+ "tempo": 126.0,
+ "beats": 77.03,
+ "sections": [
+  {
+   "name": "intro",
+   "at": 0.0,
+   "beats": 8.0
+  },
+  {
+   "name": "verse",
+   "at": 8.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 24.0,
+   "beats": 16.0
+  },
+  {
+   "name": "verse",
+   "at": 40.0,
+   "beats": 16.0
+  },
+  {
+   "name": "chorus",
+   "at": 56.0,
+   "beats": 16.0
+  },
+  {
+   "name": "outro",
+   "at": 72.0,
+   "beats": 8.0
+  }
+ ]
+}

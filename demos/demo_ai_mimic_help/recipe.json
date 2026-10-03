@@ -1,0 +1,25 @@
+{
+ "name": "demo_ai_mimic_help",
+ "kind": "sfx",
+ "tags": [
+  "demo",
+  "ai",
+  "horror"
+ ],
+ "tempo": 60,
+ "description": "Woosh: a distant unnatural voice calling for help in the woods, slightly wrong and distorted",
+ "tracks": [
+  {
+   "type": "sfx",
+   "sfx": "ai",
+   "params": {
+    "prompt": "a distant unnatural voice calling for help in the woods, slightly wrong and distorted",
+    "duration": 6,
+    "seed": 2
+   }
+  }
+ ],
+ "master": {
+  "normalize": -1
+ }
+}

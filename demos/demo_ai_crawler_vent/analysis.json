@@ -1,0 +1,67 @@
+{
+ "seconds": 6.0,
+ "peak_db": -0.6,
+ "rms_db": -18.6,
+ "crest_db": 18.0,
+ "clipped_percent": 0.0,
+ "loudness_timeline_db": [
+  -20.0,
+  -20.6,
+  -22.8,
+  -25.4,
+  -29.2,
+  -28.3,
+  -29.4,
+  -20.0,
+  -17.1,
+  -15.4,
+  -14.5,
+  -13.8
+ ],
+ "timeline_step_s": 0.5,
+ "silence_start_s": 0.0,
+ "silence_end_s": 0.0,
+ "bands_percent": {
+  "sub": 13.9,
+  "bass": 63.3,
+  "low_mid": 20.5,
+  "high_mid": 0.2,
+  "air": 0.0
+ },
+ "brightness_hz": 166,
+ "rolloff85_hz": 301,
+ "stereo_width": 0.0,
+ "lr_correlation": 1.0,
+ "onsets": 16,
+ "onsets_per_s": 2.67,
+ "first_onsets_s": [
+  0.01,
+  0.16,
+  0.28,
+  0.43,
+  0.72,
+  0.84,
+  0.94,
+  1.2,
+  1.46,
+  3.68,
+  3.9,
+  4.96,
+  5.2,
+  5.45,
+  5.65,
+  5.92
+ ],
+ "tempo_bpm_estimate": 86.1,
+ "key_estimate": "F major",
+ "key_confidence": 0.83,
+ "strongest_pitch_classes": [
+  "C",
+  "F",
+  "D",
+  "A"
+ ],
+ "notes": [
+  "явных проблем не видно"
+ ]
+}

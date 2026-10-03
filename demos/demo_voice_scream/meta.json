@@ -1,0 +1,23 @@
+{
+ "name": "demo_voice_scream",
+ "created": 1790630031.3477807,
+ "history": [
+  {
+   "t": 1790630031.5859108,
+   "author": "claude",
+   "note": "демо: аниме-песни, хоры, хоррор",
+   "seconds": 4.66
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ],
+ "updated": 1790630031.5859108,
+ "seconds": 4.66,
+ "kind": "sfx",
+ "description": "",
+ "tempo": 60.0,
+ "beats": 4.66,
+ "sections": []
+}

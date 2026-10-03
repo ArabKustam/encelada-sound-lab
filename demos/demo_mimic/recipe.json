@@ -1,0 +1,43 @@
+{
+ "name": "demo_mimic",
+ "kind": "sfx",
+ "tempo": 60,
+ "tracks": [
+  {
+   "name": "mimic",
+   "type": "sfx",
+   "sfx": "mimic",
+   "params": {
+    "text": "Эй! Помогите мне! Я здесь",
+    "count": 4,
+    "wrongness": 0.75
+   },
+   "effects": [
+    {
+     "type": "lowpass",
+     "cutoff": 3500
+    },
+    {
+     "type": "reverb",
+     "size": 1.0,
+     "mix": 0.4
+    }
+   ],
+   "gain": 0.9
+  },
+  {
+   "name": "wind",
+   "type": "sfx",
+   "sfx": "wind",
+   "params": {
+    "duration": 20,
+    "howl": 0.3
+   },
+   "gain": 0.3
+  }
+ ],
+ "tags": [
+  "demo",
+  "horror"
+ ]
+}
